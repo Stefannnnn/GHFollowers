@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67279C562B5F935800D2F8BE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67279C552B5F935800D2F8BE /* User.swift */; };
+		67279C592B5F9A0900D2F8BE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67279C582B5F9A0900D2F8BE /* NetworkManager.swift */; };
 		6765AE3A2B01F19F00DE6E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6765AE392B01F19F00DE6E2E /* AppDelegate.swift */; };
 		6765AE3C2B01F19F00DE6E2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6765AE3B2B01F19F00DE6E2E /* SceneDelegate.swift */; };
 		6765AE432B01F1A000DE6E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6765AE422B01F1A000DE6E2E /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		67279C552B5F935800D2F8BE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		67279C582B5F9A0900D2F8BE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		6765AE362B01F19F00DE6E2E /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6765AE392B01F19F00DE6E2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6765AE3B2B01F19F00DE6E2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67279C572B5F99F500D2F8BE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				67279C582B5F9A0900D2F8BE /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		6765AE2D2B01F19F00DE6E2E = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 		6765AE382B01F19F00DE6E2E /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				67279C572B5F99F500D2F8BE /* Managers */,
 				6765AE472B01F1A000DE6E2E /* Info.plist */,
 				67E2886A2B4382D30049E2AA /* Model */,
 				67DC8CE22B22F58000F3ED8F /* Support */,
@@ -214,6 +225,7 @@
 				67DC8CDA2B1D976900F3ED8F /* GFBodyLabel.swift in Sources */,
 				67E2886C2B4382F90049E2AA /* Follower.swift in Sources */,
 				67DC8CD82B1C006D00F3ED8F /* GFTitleLabel.swift in Sources */,
+				67279C592B5F9A0900D2F8BE /* NetworkManager.swift in Sources */,
 				67DC8CD62B1BDC9400F3ED8F /* FollowerListVC.swift in Sources */,
 				6765AE3A2B01F19F00DE6E2E /* AppDelegate.swift in Sources */,
 				6765AE3C2B01F19F00DE6E2E /* SceneDelegate.swift in Sources */,
