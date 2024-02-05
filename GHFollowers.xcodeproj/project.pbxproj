@@ -95,8 +95,8 @@
 				6765AE472B01F1A000DE6E2E /* Info.plist */,
 				67E2886A2B4382D30049E2AA /* Model */,
 				67DC8CE22B22F58000F3ED8F /* Support */,
-				67DC8CE12B22F51900F3ED8F /* Extension */,
 				67DC8CE02B22F3DC00F3ED8F /* Custom Views */,
+				67DC8CE12B22F51900F3ED8F /* Extension */,
 				67DC8CDF2B22F34100F3ED8F /* Screens */,
 			);
 			path = GHFollowers;
